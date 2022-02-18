@@ -650,3 +650,21 @@ a|View the kernel routing table (FIB). This is the list of resolved routes actua
 |Enable diagnostics for administrator and remote REST API access via `api-user`. When debugging API automation, refrain from working in admin GUI as it will produce a lot of unrelated output.    
 
 |===
+
+== Trucazo
+[cols=2, options="header"]
+|===
+|Command
+|Descritption
+
+|*config sys global*
+
+*into global configurations*
+
+|*set cfg-save automatic/manual/reverse*
+
+*choose type save*
+|*set cfg-reverse-timeout 60 (sec)*
+
+*timeout for reverse configurations (seconds)*
+
